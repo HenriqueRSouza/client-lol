@@ -30,6 +30,7 @@ const Login = () => {
                     className="btn"
                     buttonSize="btn--medium"
                     buttonStyle="btn--primary"
+                    type='submit'
                 >
                 <i className="fas fa-arrow-right"></i></Button>            
             </Link>
