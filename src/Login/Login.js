@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './Login.css'
 
 import Button from '../Button/Button'
@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     return(
+
     <div className="login-container">
         <div className="login-formulario">
             <div className="login-content">
@@ -14,7 +15,7 @@ const Login = () => {
                     <h1>Insira sua Conta Riot</h1>
 
             <div className="label-float" >
-                <input type="text" id="dado" placeholder="NOME"></input>
+                <input type="text" id="dado1" placeholder="NOME"></input>
             </div>
 
             <div className="label-float">
@@ -23,8 +24,9 @@ const Login = () => {
 
             <div type="checkbox"className="confirma">
                 <input type="checkbox" ></input>
-                <label>Mantenha conectado</label>
+                <label>Mantenha</label>
             </div>
+            
             <Link to="/lobby">
                 <Button
                     className="btn"

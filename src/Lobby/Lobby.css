@@ -7,7 +7,7 @@
 
     background-image: url("../assets/PlanoDeLobby2.jpg");
     background-position-x: right;
-    background-size: 1155px 100vh;
+    background-size: 100% 100vh;
     background-repeat: no-repeat;
 }
 .navbar{
@@ -31,6 +31,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
+    
 }
 
 
@@ -47,10 +48,12 @@
 }
 
 ul, li{
-    margin-bottom: 20px;
     width: 100%;
     
     margin-left: 10px;
+    list-style: none;
+
+    margin-bottom: 40px;
 }
 
 /*Icone de Invocador*/
@@ -62,7 +65,7 @@ ul, li{
     justify-content: center;
     align-items: center;
 
-    margin-top: 90%;
+    margin-top: 40%;
     text-decoration: none;
 }
 
@@ -100,4 +103,3 @@ ul, li{
     cursor: pointer;
     color: black;
 }
-

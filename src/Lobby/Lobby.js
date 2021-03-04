@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom'
 
-import ListaAmigos from '../ListaAmigos/ListaAmigos'
+import Dropdown from '../Dropdown/Dropdown'
 
 import './Lobby.css'
 
 const Lobby = () => {
+    const [dropdown, setDropdown] = useState(false);
+    
+    const handleClick = () => setDropdown(!dropdown);
+    const closeMenu = () => setDropdown(false);
+
     return(
         <div className="navbar-container">
             <div className="navbar">
@@ -16,10 +21,16 @@ const Lobby = () => {
 
             <div className="lista-button">
                 <ul>
-                    <Link className='link'><li>Inicio</li></Link>
-                    <Link className='link'><li>Perfil</li></Link>
-                    <Link className='link'><li>Coleção</li></Link>
-                    <Link className='link'><li>Amigos</li></Link>
+                    <Link className='link' onClick={closeMenu}><li>Inicio</li></Link>
+                    <Link className='link' onClick={closeMenu}><li>Perfil</li></Link>
+                    <Link className='link' onClick={closeMenu}><li>Coleção</li></Link>
+                    <Link className='link'>
+                    <li
+                        className="nav-item"
+                        onClick={handleClick}
+                    >Amigos
+                    {dropdown && <Dropdown/>}
+                    </li></Link>
                 </ul>
             </div>
 
@@ -28,14 +39,9 @@ const Lobby = () => {
                     <img src="nomeInvocador.jpg" alt="invocador"></img>
                     <p>HikeLost</p>
                 </Link>
-            </div>
-
-            <div className="cards">
-                <video src="https://www.youtube.com/watch?v=hwLIKeDFXMY"></video>
-            </div>
-
-            </div>                  
-        </div>
+            </div>  
+        </div>               
+    </div>
     );
 }
 
