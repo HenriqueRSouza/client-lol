@@ -7,7 +7,7 @@ import Login from './pages/Login/index';
 import Lobby from './pages/Lobby/index';
 import Collect from './pages/Collect/index';
 import Profile from './pages/Profile/Profile';
-// import Jogar from './pages/Jogar';
+import Jogar from './Components/Jogar';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/lobby" component={Lobby} />
         <Route path="/collection" component={Collect} />
         <Route path="/perfil" component={Profile} />
-        {/* <Route path="/jogar" component={Jogar} /> */}
+        <Route path="/jogar" component={Jogar} />
       </Switch>
     </Router>
   );

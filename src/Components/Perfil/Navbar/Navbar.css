@@ -1,9 +1,0 @@
-.navgames-container{
-  color:white;
-  
-}
-
-.navgames-container a:nth-child(n + 2){
-  margin-left: 20px;
-}
-
