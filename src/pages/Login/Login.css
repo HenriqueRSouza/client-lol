@@ -41,16 +41,15 @@
 }
 .confirma{
     width: 80%;
-<<<<<<< HEAD:src/pages/Login/Login.css
     vertical-align: middle;
 
     margin-top: 20px;
 }
-=======
+btn{
     display: flex;
     margin: 20px 0 0 0;
 }   
->>>>>>> a32cac96f3b4ae41e128bbc77732fcf1ba08b334:src/Login/Login.css
+
 
 input[type="checkbox"]{
     zoom: 1.5;
