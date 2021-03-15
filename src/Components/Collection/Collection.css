@@ -1,0 +1,56 @@
+.collection-container{
+    width: 80%;
+    height: 100vh;
+
+    margin: auto;
+
+    display: flex;
+
+    background: #116DFF;
+    font-family: 'Roboto';
+}
+.collection{
+    width: 100%;
+}
+.links-collection {
+    width: 100%;
+
+    display: flex;
+
+    margin: 20px auto auto auto;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.links-collection a{
+    display: flex;
+
+    text-decoration: none;
+    color: black;
+
+    margin: auto;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.links-collection a:nth-child(n + 2){
+    margin-left: 30px;
+}
+
+.maestria{
+    display: flex;
+
+    width: 50%;
+
+    margin: 30% auto auto auto;
+
+    justify-content: right;
+    align-items: center;
+    text-align: start;
+}
+.collection-input{
+    display: grid;
+}

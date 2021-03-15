@@ -1,0 +1,41 @@
+.lista-games-container{
+  width: 80%;
+  max-height: 80vh;
+
+  display: flex;
+
+  margin: 50px auto auto auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  overflow-y: auto;
+
+  background: #bbbbbb;
+  color: black;
+}
+ul{
+  width: 90%;
+}
+
+.text-games{
+  width: 100%;
+  display: flex;
+
+  margin: 10% 60px 20px 20px;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.text-games h3{
+  text-align: start;
+}
+.text-games:hover{
+  background: cornflowerblue;
+
+}
+
+.text-games p{
+  width: 100%;
+}

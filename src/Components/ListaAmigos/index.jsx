@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import api from '../api'
+import api from '../../api'
 
 class Amigos extends Component{
     state = {
@@ -14,7 +14,7 @@ class Amigos extends Component{
 
     render() {
         const {nomes} = this.state;
-        
+
         return(
             <div className="lista-amigos">
                 <h1>Lista de amigos</h1>

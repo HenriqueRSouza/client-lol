@@ -1,5 +1,5 @@
 .login-container {
-    background-image: url(../assets/PlanoDeFundo.jpg);
+    background-image: url(../../assets/PlanoDeFundo.jpg);
     background-repeat: no-repeat;
 
     width: 100%;
@@ -44,7 +44,7 @@
     vertical-align: middle;
 
     margin-top: 20px;
-}   
+}
 
 input[type="checkbox"]{
     zoom: 1.5;
