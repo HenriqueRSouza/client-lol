@@ -14,9 +14,6 @@ const Login = () => {
 
           <div className="label-float">
             <input type="text" id="dado" placeholder="NOME" />
-          </div>
-
-          <div className="label-float">
             <input type="password" id="dado" placeholder="SENHA" />
           </div>
 

@@ -26,22 +26,28 @@
 
     background: white;
     align-items: center;
+    justify-content: center;
+    text-align: start;
 }
 
 .login-content img{
     width: 100px;
 
-    margin: 40px;
+    display: flex;
+    margin-top: -100px;
+    margin-bottom: 20px;
 }
 
 .login-content h1{
-    margin: 0 auto 60px auto;
+    margin: 0 auto 50px auto;
 
     font-size: 28px;
 }
 .confirma{
     width: 80%;
     vertical-align: middle;
+
+    display: flex;
 
     margin-top: 20px;
 }
@@ -53,6 +59,7 @@ btn{
 
 input[type="checkbox"]{
     zoom: 1.5;
+    
 }
 
 .confirma label{
@@ -79,8 +86,9 @@ input[type="checkbox"]{
 
     text-align: center;
     position: relative;
-
-    margin-top: 14px;
+}
+.label-float input:nth-child(n + 2){
+    margin-top: 20px;
 }
 
 .label-float input{
